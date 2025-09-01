@@ -37,6 +37,19 @@ const App = () => {
     );
   }
 
+  if (tours.length === 0) {
+    return (
+      <main>
+        <div>
+          <h2>no Tours left</h2>
+          <button type="button" onClick={() => fetchTours()}>
+            Refresh
+          </button>
+        </div>
+      </main>
+    );
+  }
+
   return (
     <main>
       <div>
