@@ -1,4 +1,4 @@
-# Birthday Buddies 🎂
+# Tours Project 🧳
 
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-Bundler-purple?logo=vite)
