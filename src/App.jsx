@@ -43,11 +43,8 @@ const App = () => {
         <div className="title">
           <h2>no Tours left</h2>
           <div className="title-underline"></div>
-          <div style={{ padding: "0 20rem", marginTop: "2rem" }}>
-            <button
-              className="refresh-btn btn-block btn"
-              onClick={() => fetchTours()}
-            >
+          <div style={{ marginTop: "2rem" }}>
+            <button className=" btn" onClick={() => fetchTours()}>
               Refresh
             </button>
           </div>
