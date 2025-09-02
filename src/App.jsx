@@ -40,11 +40,17 @@ const App = () => {
   if (tours.length === 0) {
     return (
       <main>
-        <div>
+        <div className="title">
           <h2>no Tours left</h2>
-          <button type="button" onClick={() => fetchTours()}>
-            Refresh
-          </button>
+          <div className="title-underline"></div>
+          <div style={{ padding: "0 20rem", marginTop: "2rem" }}>
+            <button
+              className="refresh-btn btn-block btn"
+              onClick={() => fetchTours()}
+            >
+              Refresh
+            </button>
+          </div>
         </div>
       </main>
     );
