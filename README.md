@@ -7,7 +7,7 @@
 
 A React practice project focused on practice fundamental hooks and API integration. Displays tour information with interactive features for a dynamic user experience.
 
-![Reviews App Screenshot](./src/assets/Screenshot.png)
+![Tours App Screenshot](./src/assets/Screenshot.png)
 
 ## ✨ Features
 
